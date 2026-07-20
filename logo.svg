@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="TUAIT circuit T monogram">
+  <g fill="none" stroke="#8c1010" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- top bar -->
+    <path d="M22 36 H98"/>
+    <!-- left end drop + foot -->
+    <path d="M22 36 V64 H40"/>
+    <!-- right end drop + foot -->
+    <path d="M98 36 V64 H80"/>
+    <!-- vertical stem -->
+    <path d="M60 36 V98"/>
+    <!-- upward branches from top bar -->
+    <path d="M40 36 V22"/>
+    <path d="M80 36 V22"/>
+    <!-- stem side traces -->
+    <path d="M60 56 H84"/>
+    <path d="M60 74 H38 V90"/>
+  </g>
+  <!-- solid circuit nodes -->
+  <g fill="#8c1010">
+    <circle cx="40" cy="18" r="6"/>
+    <circle cx="80" cy="18" r="6"/>
+    <circle cx="40" cy="68" r="6"/>
+    <circle cx="80" cy="68" r="6"/>
+    <circle cx="84" cy="56" r="6"/>
+    <circle cx="38" cy="94" r="6"/>
+    <circle cx="60" cy="102" r="6"/>
+  </g>
+  <!-- hollow pads on the outer top corners -->
+  <g fill="#fffdf8" stroke="#8c1010" stroke-width="4.5">
+    <circle cx="22" cy="36" r="5"/>
+    <circle cx="98" cy="36" r="5"/>
+  </g>
+</svg>

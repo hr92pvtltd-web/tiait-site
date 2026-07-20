@@ -5,6 +5,15 @@
 (function () {
   "use strict";
 
+  // Favicon (circuit-T mark)
+  (function () {
+    var link = document.querySelector("link[rel='icon']") || document.createElement("link");
+    link.rel = "icon";
+    link.type = "image/png";
+    link.href = "logo-icon.png";
+    document.head.appendChild(link);
+  })();
+
   var NAV = [
     { label: "About", href: "about.html", cols: [
       { title: "The Institute", items: [
@@ -137,8 +146,8 @@
   '</div></div>' +
   '<nav class="nav"><div class="container">' +
     '<a class="brand" href="index.html">' +
-      '<span class="logo">TI</span>' +
-      '<span><span class="brand-name">TIAIT</span><br><span class="brand-sub">Institute of AI &amp; Technology</span></span>' +
+      '<img class="brand-icon" src="logo-icon.png" alt="TUAIT">' +
+      '<span class="brand-text"><span class="brand-name">TUAIT</span><span class="brand-sub">Tarar Institute of AI Technology</span></span>' +
     '</a>' +
     '<div class="nav-menu">' + navItems + '</div>' +
     '<div class="nav-cta">' +
@@ -174,8 +183,7 @@
   '<footer class="footer"><div class="container">' +
     '<div class="footer-grid">' +
       '<div class="footer-brand">' +
-        '<a class="brand" href="index.html"><span class="logo">TI</span>' +
-        '<span><span class="brand-name">TIAIT</span><br><span class="brand-sub">Tarar Institute of AI &amp; Technology</span></span></a>' +
+        '<a class="brand" href="index.html"><img class="brand-icon brand-icon-footer" src="logo-icon.png" alt="TUAIT"><span class="brand-text"><span class="brand-name">TUAIT</span><span class="brand-sub">Tarar Institute of AI Technology</span></span></a>' +
         '<div class="footer-tag">Artificial Intelligence. Innovation. Leadership.</div>' +
         '<p>Preparing future leaders through world class education, technology, research, innovation and industry collaboration.</p>' +
         '<div class="socials">' +

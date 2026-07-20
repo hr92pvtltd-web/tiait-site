@@ -230,7 +230,7 @@ section { position: relative; }
 .figure-card.faculty .photo .fac-ph { position: absolute; inset: 0; display: grid; place-items: center; z-index: 1; }
 .figure-card.faculty .photo .fac-ph span { font-family: var(--serif); font-weight: 700; color: rgba(255,255,255,.9); font-size: 40px; letter-spacing: .04em; }
 .figure-card.faculty .photo .fac-ph small { position: absolute; bottom: 14px; left: 0; right: 0; text-align: center; color: rgba(255,255,255,.6); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; }
-.figure-card.faculty .body { padding: 20px 22px; }
+.figure-card.faculty .body { padding: 20px 22px; margin-bottom: 0 !important; }
 .figure-card.faculty h3 { font-size: 17px; line-height: 1.25; }
 .figure-card.faculty .role { display: inline-block; margin-top: 4px; background: var(--grad-soft); border: 1px solid rgba(140,16,16,.2); padding: 3px 10px; border-radius: 30px; }
 .figure-card.faculty .qual { color: var(--text-dim); font-size: 13px; margin: 12px 0 0; }

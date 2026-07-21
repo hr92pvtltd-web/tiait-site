@@ -191,7 +191,8 @@ h1, h2, h3, .serif { font-family: var(--serif); }
 .icon-btn:hover { color: #fff; }
 
 /* NAV */
-.nav { position: sticky; top: 0; z-index: 100; background: rgba(255,253,248,.94); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+.nav { position: sticky; top: 0; z-index: 100; background: rgba(255,253,248,.94); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); transition: transform .32s cubic-bezier(.2,.7,.2,1), box-shadow .32s ease; }
+.nav.nav-hidden { transform: translateY(-100%); box-shadow: none; }
 .nav .container { display: flex; align-items: center; justify-content: space-between; height: var(--nav-h); }
 .brand { display: flex; align-items: center; gap: 7px; font-weight: 700; }
 .brand-icon { flex: none; display: block; height: 52px; width: auto; }

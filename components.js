@@ -205,6 +205,24 @@
   var fmount = document.getElementById("site-footer");
   if (fmount) fmount.innerHTML = footer;
 
+  // Hide nav on scroll down, reveal on scroll up
+  var navEl = document.querySelector(".nav");
+  if (navEl) {
+    var lastY = window.pageYOffset || 0;
+    var ticking = false;
+    window.addEventListener("scroll", function () {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(function () {
+        var y = window.pageYOffset || 0;
+        if (y > lastY && y > 180) { navEl.classList.add("nav-hidden"); }
+        else { navEl.classList.remove("nav-hidden"); }
+        lastY = y;
+        ticking = false;
+      });
+    }, { passive: true });
+  }
+
   function on(sel, ev, fn) { document.querySelectorAll(sel).forEach(function (el) { el.addEventListener(ev, fn); }); }
 
   var drawerEl = document.getElementById("drawer");

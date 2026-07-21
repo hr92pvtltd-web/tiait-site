@@ -31,14 +31,15 @@
     ]},
     { label: "Academics", href: "academics.html", cols: [
       { title: "Faculty of Computing &amp; AI", items: [
-        ["BS Computer Science", "academics.html#cs"],
-        ["BS Software Engineering", "academics.html#se"],
-        ["BS Information Technology", "academics.html#it"],
+        ["BS Computer Science", "bs-computer-science.html"],
+        ["BS Software Engineering", "bs-software-engineering.html"],
+        ["BS Information Technology", "bs-information-technology.html"],
       ]},
       { title: "Other Faculties", items: [
-        ["BS Accounting &amp; Finance", "academics.html#business"],
-        ["LLB (Law)", "academics.html#law"],
+        ["BS Accounting &amp; Finance", "bs-accounting-finance.html"],
+        ["LLB (Law)", "llb.html"],
         ["School of Fine Arts", "fine-arts.html"],
+        ["All Programs", "academics.html"],
       ]},
     ]},
     { label: "Skills", href: "skills.html", cols: [
@@ -46,22 +47,6 @@
         ["Overview", "skills.html#overview"],
         ["Punjab Skills Development Fund", "skills.html#psdf", "PSDF"],
         ["NAVTTC Programs", "skills.html#navttc"],
-      ]},
-    ]},
-    { label: "Software House", href: "software-house.html", cols: [
-      { title: "Digital Innovation Centre", items: [
-        ["Overview", "software-house.html#overview"],
-        ["AI Solutions", "software-house.html#ai"],
-        ["Enterprise &amp; ERP", "software-house.html#enterprise"],
-        ["Web, Mobile &amp; Cloud", "software-house.html#web"],
-        ["Support &amp; Maintenance", "software-house.html#support"],
-      ]},
-    ]},
-    { label: "Consultancy", href: "consultancy.html", cols: [
-      { title: "Consultancy Services", items: [
-        ["Academic Consultancy", "consultancy.html#academic"],
-        ["Accreditation &amp; Compliance", "consultancy.html#accreditation"],
-        ["Executive Training", "consultancy.html#training"],
       ]},
     ]},
     { label: "Research", href: "research.html", cols: [
@@ -191,10 +176,10 @@
           '<a href="#" aria-label="X">&#120143;</a><a href="#" aria-label="YouTube">&#9654;</a>' +
         '</div>' +
       '</div>' +
-      '<div><h5>Academics</h5>' +
-        '<a href="academics.html#cs">BS Computer Science</a><a href="academics.html#se">BS Software Engineering</a>' +
-        '<a href="academics.html#it">BS Information Technology</a><a href="academics.html#business">BS Accounting &amp; Finance</a>' +
-        '<a href="academics.html#law">LLB</a><a href="fine-arts.html">Fine Arts</a></div>' +
+      '<div><h5>Programs</h5>' +
+        '<a href="bs-computer-science.html">BS Computer Science</a><a href="bs-software-engineering.html">BS Software Engineering</a>' +
+        '<a href="bs-information-technology.html">BS Information Technology</a><a href="bs-accounting-finance.html">BS Accounting &amp; Finance</a>' +
+        '<a href="llb.html">LLB</a><a href="fine-arts.html">Fine Arts</a></div>' +
       '<div><h5>Institute</h5>' +
         '<a href="about.html#vision">Vision &amp; Mission</a><a href="about.html#leadership">Leadership</a>' +
         '<a href="about.html#advisory">Advisory Board</a><a href="research.html">Research</a>' +
